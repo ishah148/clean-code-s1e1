@@ -26,7 +26,9 @@ body {
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.task,
+.task__task-list-label,
+.task__input-text {
     width: 56%;
     display: inline-block;
     flex-grow: 1
