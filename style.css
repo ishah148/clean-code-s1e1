@@ -69,7 +69,7 @@ h3,
     margin: 0;
     text-transform: uppercase;
 }
-input[type="text"] {
+.task__input-text {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -81,7 +81,7 @@ input[type="text"] {
     font-family: Lato, sans-serif;
     color: #888;
 }
-input[type="text"]:focus {
+.task__input-text:focus {
     color: #333;
 }
 
@@ -117,7 +117,7 @@ input#task__new-task {
     font-size: 18px;
     width: 226px;
 }
-.task__list >    input[type="text"] {
+.task__list >    .task__input-text {
     width: 226px
 }
 button.task__button-delete img {
