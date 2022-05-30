@@ -108,7 +108,7 @@ input#task__new-task {
     vertical-align: middle;
 }
 
-.task__list > input[type="checkbox"] {
+.task__list > .task__checkbox {
     margin: 0 10px;
 }
 .task__list > label {
