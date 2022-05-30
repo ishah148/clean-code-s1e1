@@ -4,28 +4,34 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .start-page__wrapper {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .start-page__image {
     width: 100%;
 }
-.start-page__more-inf{
+
+.start-page__more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.start-page__wrapper { text-align: center;
+    .start-page__wrapper {
+        text-align: center;
+    }
 }
-}
+
 .task__wrapper {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
+
 .task,
 .task__task-list-label,
 .task__input-text {
@@ -33,20 +39,25 @@ body {
     display: inline-block;
     flex-grow: 1;
 }
+
 .task__input-container {
     display: flex;
 }
+
 ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
+
 .task__list,
 .task__chapter-description {
-    list-style:none;
+    list-style: none;
 }
-input,button{
-    outline:none;
+
+input, button {
+    outline: none;
 }
+
 button {
     background: none;
     border: 0px;
@@ -56,9 +67,11 @@ button {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 button:hover {
     color: #3a3A3a;
 }
+
 /* Heading */
 .task__chapter-description,
 .task__label {
@@ -70,6 +83,7 @@ button:hover {
     margin: 0;
     text-transform: uppercase;
 }
+
 .task__input-text {
     margin: 0;
     font-size: 18px;
@@ -82,6 +96,7 @@ button:hover {
     font-family: Lato, sans-serif;
     color: #888;
 }
+
 .task__input-text:focus {
     color: #333;
 }
@@ -91,6 +106,7 @@ button:hover {
     display: block;
     margin: 0 0 20px;
 }
+
 #task__new-task {
     width: 318px;
 }
@@ -105,27 +121,32 @@ button:hover {
     justify-content: space-between;
     align-items: center;
 }
-.task__list > * {
+
+.task__list>* {
     vertical-align: middle;
 }
 
 .task__checkbox {
     margin: 0 10px;
 }
+
 .task__task-list-label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
+
 .task__input-text {
     width: 226px;
 }
+
 .task__button-img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 .task__button-delete img:hover {
     transform: rotateZ(0);
 }
@@ -138,14 +159,14 @@ button:hover {
 
 /* Edit Task */
 .task__list .task__input-text {
-    display:none;
+    display: none;
 }
 
 .task__list.editMode .task__input-text {
-    display:inline-block;
-    width:224px;
+    display: inline-block;
+    width: 224px;
 }
 
 .task__list.editMode .task__task-list-label {
-    display:none;
+    display: none;
 }
