@@ -40,7 +40,8 @@ ul {
     margin:0;
     padding: 0px;
 }
-.task__list, .task__chapter-description {
+.task__list,
+.task__chapter-description {
     list-style:none;
 }
 input,button{
