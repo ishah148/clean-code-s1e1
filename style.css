@@ -21,7 +21,7 @@ body {
 .start-page__wrapper { text-align: center;
 }
 }
-.task__container {
+.task__wrapper {
     display: block;
     width: 500px;
     margin: 0 auto 0;
