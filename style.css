@@ -131,7 +131,7 @@ button.task__button-delete img:hover {
 
 /* Completed */
 ul#task__completed label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
